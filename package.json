@@ -1,0 +1,36 @@
+{
+  "name": "tanu-strapi",
+  "private": true,
+  "version": "4.0.0",
+  "description": "Strapi CMS for Tanu Ice Cream - admin panel for products and categories",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.0.0",
+    "@strapi/strapi": "4.17.0",
+    "better-sqlite3": "^9.0.0",
+    "pg": "^8.11.0",
+    "sqlite3": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "strapi",
+    "cms",
+    "headless",
+    "tanu",
+    "ice-cream"
+  ],
+  "author": "",
+  "license": "MIT",
+  "strapi": {
+    "uuid": "replace-with-your-project-uuid",
+    "appId": "tanu-strapi"
+  }
+}
